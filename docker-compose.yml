@@ -1,0 +1,7 @@
+version: '3'
+services:
+  har-sanitizer:
+    build: .
+    container_name: har-sanitizer
+    ports:
+      - 8080:8080
